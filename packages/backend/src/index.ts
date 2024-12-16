@@ -6,6 +6,10 @@
  * Happy hacking!
  */
 
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 import { createBackend } from '@backstage/backend-defaults';
 
 const backend = createBackend();

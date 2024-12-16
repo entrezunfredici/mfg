@@ -11,3 +11,5 @@ spec:
   type: website
   owner: john@example.com
   lifecycle: experimental
+  annotations:
+    github.com/project-slug: my-org/my-service-repo
