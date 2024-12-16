@@ -36,6 +36,7 @@ import { AppRouter, FlatRoutes } from '@backstage/core-app-api';
 import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
+import SonarQubePage from './components/SonarQubePage'; // Importation de la page SonarQube
 
 const app = createApp({
   apis,
@@ -82,6 +83,7 @@ const routes = (
     </Route>
     <Route path="/create" element={<ScaffolderPage />} />
     <Route path="/api-docs" element={<ApiExplorerPage />} />
+    <Route path="/sonarqube" element={SonarQubePage} />  {/* Route spécifique à SonarQube */}
     <Route
       path="/catalog-import"
       element={

@@ -42,6 +42,14 @@ integrations:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
     #   token: ${GHE_TOKEN}
+  sonarqube:
+    - host: 'https://your-sonarqube-instance.com'
+      apiToken: ${SONARQUBE_API_TOKEN}
+
+# plugins:
+#   sonarqube:
+#     apiBaseUrl: '/srv546417.hstgr.cloud:9009/api'
+#     token: 'squ_8a186df60f367d389990bfc'
 
 proxy:
   ### Example for how to add a proxy endpoint for the frontend.
