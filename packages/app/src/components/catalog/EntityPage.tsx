@@ -69,11 +69,13 @@ const techdocsContent = (
   </EntityTechdocsContent>
 );
 
-const cicdContent = (
-  <EntityLayout.Route path="/ci-cd" title="CI/CD">
-    <EntityGithubActionsContent />
-  </EntityLayout.Route>
-);
+// const cicdContent = (
+//   <EntityLayout.Route path="/ci-cd" title="CI/CD">
+//     <EntityGithubActionsContent />
+//   </EntityLayout.Route>
+// );
+
+const cicdContent = null;
 
 const entityWarningContent = (
   <>
